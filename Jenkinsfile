@@ -9,12 +9,6 @@ pipeline {
 
   stages {
 
-    stage('Checkout Source') {
-      steps {
-        git 'https://github.com/Murshidtp/Kubernetes.git'
-      }
-    }
-
     stage('Build image') {
       steps{
         script {
