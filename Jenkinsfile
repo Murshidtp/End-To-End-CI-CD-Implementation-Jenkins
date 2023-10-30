@@ -35,7 +35,7 @@ pipeline {
     stage('Deploying to Kubernetes') {
       steps {
         script {
-          sh 'echo"hi"'
+          echo "hi" 
           sh 'kubectl apply -f deploymentsvc.yml'
         }
       }
