@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: python-app
-        image: murshidtp/flaskapp:latest
+        image: murshidtp/flaskapp
         ports:
         - containerPort: 8080
 ---
