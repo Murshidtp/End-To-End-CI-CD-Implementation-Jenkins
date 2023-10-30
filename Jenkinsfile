@@ -3,7 +3,7 @@ pipeline {
   environment {
     dockerimagename = "murshidtp/flaskapp"
     dockerImage = ""
-    KUBECONFIG = credentials('kuberneteskey')
+    KUBECONFIG = credentials('my_kubernetes')
     
   }
 
