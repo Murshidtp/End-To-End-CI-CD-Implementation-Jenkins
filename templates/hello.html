@@ -1,20 +1,35 @@
-<!doctype html>
-<title>Hello from Flask</title>
-<body style="background: {{ color }};"></body>
-<div style="color: #e4e4e4;
-    text-align:  center;
-    height: 90px;
-    vertical-align:  middle;">
-{% if name %}
-  <h1>Hello, A Monk in Cloud</h1>
-{% else %}
-  <h1>Hello, World!</h1>
-{% endif %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
 
-  {% if contents %}
-  <textarea rows="10" cols="50">
-    {{ contents }}
-  </textarea>
-  {% endif %}
+        h1 {
+            color: #333;
+        }
 
-</div>
+        p {
+            color: #555;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Simple Website</h1>
+        <p>This is a basic HTML page with a simple design.</p>
+        <img src="aws.png" alt="Sample Image">
+    </div>
+</body>
+</html>
