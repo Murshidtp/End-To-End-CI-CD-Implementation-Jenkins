@@ -3,6 +3,7 @@ pipeline {
   environment {
     dockerimagename = "murshidtp/flaskapp"
     dockerImage = ""
+    KUBECONFIG = credentials('kuberneteskey')
   }
 
   agent any
@@ -33,7 +34,7 @@ pipeline {
     stage('Deploying to Kubernetes') {
       steps {
         script {
-          kubernetesDeploy(configs: "deployment.yml", kubeconfigId: "kubernetes")
+          sh 'kubectl apply -f deployment.yml'
         }
       }
     }
