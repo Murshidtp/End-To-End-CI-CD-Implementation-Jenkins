@@ -15,7 +15,7 @@ This project demonstrates an automated CI/CD pipeline implementation for a Pytho
 Ensure you have the following tools installed and configured:
 
 - Jenkins
-- AWS CLI
+- AWS 
 - Docker
 - Kubernetes
 - Git and GitHub
@@ -49,7 +49,7 @@ Ensure you have the following tools installed and configured:
 
 6. Configure Git and GitHub:
 
-    - Generate SSH keys for Jenkins and add them to your GitHub repository.
+    - Generate GitHub tokens for Jenkins and add them to your Jenkins Credentials.
 
 7. Configure Webhooks:
 
