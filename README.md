@@ -25,8 +25,8 @@ Ensure you have the following tools installed and configured:
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/your-username/your-repository.git
-    cd your-repository
+    git clone https://github.com/Murshidtp/End-To-End-CI-CD-Implementation-Jenkins.git
+    cd End-To-End-CI-CD-Implementation-Jenkins
     ```
 
 2. Configure Jenkins:
